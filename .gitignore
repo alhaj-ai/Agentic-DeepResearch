@@ -1,0 +1,27 @@
+# Environment variables
+.env
+*.env.local
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Testing & evaluation
+.pytest_cache/
+.deepeval/
+.coverage
+htmlcov/
+
+# Editor artifacts
+.vscode/
+.idea/
+*.log

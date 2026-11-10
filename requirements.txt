@@ -1,0 +1,23 @@
+# Core Agent & Graph Orchestration
+langgraph>=0.2.0
+langchain>=0.2.0
+langchain-core>=0.2.0
+
+# LLM Providers (Google Gemini & OpenAI)
+google-genai>=0.1.0
+langchain-google-genai>=1.0.0
+langchain-openai>=0.1.0
+
+# Web Search & Grounding
+tavily-python>=0.3.0
+
+# Backend & Web Service
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Testing & Quality Assurance
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+httpx>=0.27.0
