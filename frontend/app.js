@@ -160,7 +160,7 @@ function displayReport(data, isAr) {
     // Direction and language tag
     if (data.language === "ar" || isAr) {
         resultBox.setAttribute("dir", "rtl");
-        langTag.innerText = "🇾🇪/🇸🇦 العربية";
+        langTag.innerText = "🇾🇪 العربية";
     } else {
         resultBox.setAttribute("dir", "ltr");
         langTag.innerText = "🌐 English";
